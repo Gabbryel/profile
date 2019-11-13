@@ -1,7 +1,14 @@
 @media (max-width: 900px) {
+  body {
+    width: 100%;
+  }
   .first-div img {
     width: 12 rem;
   }
+  .main-div {
+    width: 100%;
+  }
 }
+
 
 
