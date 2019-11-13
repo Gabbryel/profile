@@ -5,8 +5,15 @@ body {
   background-color: rgb(235, 241, 247);
   font-family: 'Open Sans', sans-serif;
   color: #293a80;
-  padding: 0;
-  margin: 0;
+  margin: 0rem auto;
+}
+
+.first-div {
+  position: relative;
+  top: -23px;
+  text-align: center;
+  background-color: rgb(229, 234, 238);
+  padding: 1rem 0 .3rem 0;
 }
 
 h1 {
@@ -16,14 +23,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: .9rem;
 }
 
 h3 {
   font-size: .8rem;
 }
 .main-div {
-  width: 75vw;
+  width: 65vw;
   margin: 0 auto;
 }
 
@@ -45,13 +52,11 @@ ul {
   padding: 0;
 }
 
-.first-div {
-  margin-top: 1rem;
-  text-align: center;
-  background-color: rgb(235, 241, 247);
-}
 
-.first-div img {
+.image {
+  text-align: center;
+}
+.image img {
   border-radius: 50%;
   width: 8rem;
 }
@@ -67,6 +72,25 @@ ul {
   border-radius: 30px;
 }
 
+.button:hover {
+    animation: shakeme 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shakeme {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .button a {
   font-size: 1rem;
 }
@@ -78,10 +102,12 @@ ul {
 
 .footer {
   text-align: center;
-  background-color: rgb(235, 241, 247);
+  background-color: rgb(229, 234, 238);
 }
 
 .footer li {
+  position: relative;
+  bottom: 0;
   display: inline-block;
   margin: 0 .2rem;
 }
