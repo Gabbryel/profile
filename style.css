@@ -6,6 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #293a80;
   margin: 0rem auto;
+  width: 60vw;
 }
 
 .first-div {
@@ -13,7 +14,7 @@ body {
   top: -23px;
   text-align: center;
   background-color: rgb(229, 234, 238);
-  padding: 1rem 0 .3rem 0;
+  padding: .5rem 0 .3rem 0;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h3 {
   font-size: .8rem;
 }
 .main-div {
-  width: 65vw;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -75,6 +76,7 @@ ul {
 .button:hover {
     animation: shakeme 0.5s;
     animation-iteration-count: infinite;
+    opacity: .5;
 }
 
 @keyframes shakeme {
@@ -93,11 +95,6 @@ ul {
 
 .button a {
   font-size: 1rem;
-}
-
-.button:hover {
-  opacity: .5;
-
 }
 
 .footer {
