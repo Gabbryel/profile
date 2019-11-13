@@ -48,6 +48,7 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 
@@ -109,11 +110,9 @@ ul {
 }
 
 
-h3 {
+.footer-text {
   font-size: .8rem;
   color: darkgrey;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }
 
 i {
