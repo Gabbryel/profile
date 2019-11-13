@@ -2,11 +2,12 @@
   body {
     width: 100%;
   }
-  .first-div img {
-    width: 12 rem;
+  .image img {
+    width: 10rem;
   }
   .main-div {
     width: 100%;
+    padding: 1rem 0;
   }
 }
 
