@@ -1,0 +1,91 @@
+html {
+  font-size: calc(1vw + 1em);
+}
+body {
+  background-color: rgb(235, 241, 247);
+  font-family: 'Open Sans', sans-serif;
+  color: #293a80;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-shadow: .1px .1px 2px black;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: .8rem;
+}
+.main-div {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+p {
+  font-size: .8rem;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.first-div {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: rgb(235, 241, 247);
+}
+
+.first-div img {
+  border-radius: 50%;
+  width: 8rem;
+}
+
+
+.button {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #293a80;
+  width: 8rem;
+  color: aliceblue;
+  padding: .5rem .2rem;
+  border-radius: 30px;
+}
+
+.button a {
+  font-size: 1rem;
+}
+
+.button:hover {
+  opacity: .5;
+
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(235, 241, 247);
+}
+
+.footer li {
+  display: inline-block;
+  margin: 0 .2rem;
+}
+
+i {
+  font-size: 2rem;
+}
