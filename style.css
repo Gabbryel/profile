@@ -6,6 +6,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #293a80;
   margin: 0rem auto;
+  width: 60vw;
 }
 
 .first-div {
@@ -13,24 +14,24 @@ body {
   top: -23px;
   text-align: center;
   background-color: rgb(229, 234, 238);
-  padding: 1rem 0 .3rem 0;
+  padding: .5rem 0 .3rem 0;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 900;
   text-shadow: .1px .1px 2px black;
 }
 
 h2 {
-  font-size: .9rem;
+  font-size: .8rem;
 }
 
 h3 {
   font-size: .8rem;
 }
 .main-div {
-  width: 65vw;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -75,6 +76,7 @@ ul {
 .button:hover {
     animation: shakeme 0.5s;
     animation-iteration-count: infinite;
+    opacity: .5;
 }
 
 @keyframes shakeme {
@@ -95,11 +97,6 @@ ul {
   font-size: 1rem;
 }
 
-.button:hover {
-  opacity: .5;
-
-}
-
 .footer {
   text-align: center;
   background-color: rgb(229, 234, 238);
@@ -113,5 +110,5 @@ ul {
 }
 
 i {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
