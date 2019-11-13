@@ -1,5 +1,18 @@
 @media (max-width: 900px) {
   body {
+    width: 90%;
+  }
+  .image img {
+    width: 10rem;
+  }
+  .main-div {
+    width: 85%;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
     width: 100%;
   }
   .image img {
